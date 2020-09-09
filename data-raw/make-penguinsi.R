@@ -6,13 +6,13 @@ library(missForest)
 penguinsi<-penguins
 penguinsi <- as_tibble(missForest(as.data.frame(penguinsi))$ximp)
 
-#Tidy
-library(dplyr)
-library(magrittr)
-penguinsi <- penguins%>%
-  as.data.frame()%>%
-  missForest()%>%
-  `$`(ximp)%>%
-  as_tibble()
+#Tidy version (for reference)
+#library(dplyr)
+#library(magrittr)
+#penguinsi <- penguins%>%
+#  as.data.frame()%>%
+#  missForest()%>%
+#  `$`(ximp)%>%
+#  as_tibble()
 
 use_data(penguinsi)
