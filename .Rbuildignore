@@ -4,3 +4,5 @@
 ^data-raw$
 ^\.travis\.yml$
 ^README\.Rmd$
+^_pkgdown\.yml$
+^pkgdown$
