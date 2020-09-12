@@ -5,6 +5,8 @@
 
 <!-- badges: start -->
 
+[![Build
+Status](https://travis-ci.com/xy272/bis557.svg?branch=master)](https://travis-ci.com/xy272/bis557)
 [![Coveralls test
 coverage](https://coveralls.io/repos/github/xy272/bis557/badge.svg)](https://coveralls.io/r/xy272/bis557?branch=master)
 <!-- badges: end -->
